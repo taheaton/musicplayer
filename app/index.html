@@ -7,7 +7,17 @@
 </head>
 <body>
 
-  <div ui-view></div>
+  <div ng-controller="HomeController as vm">
+
+    <tim-contact 
+      ng-repeat="c in vm.contacts" 
+      color="{{ c.color }}"
+      person="c"
+      >
+    </tim-contact>
+
+  </div>
+
   
   <script src="js/main.js"></script>
 </body>

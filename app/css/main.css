@@ -6388,33 +6388,16 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
 body {
-  background: #e2ebf3;
-  position: relative; }
+  background-color: lightgrey; }
 
-.container {
-  width: 600px;
-  margin: 20px auto; }
+p {
+  width: 250px; }
 
-.audio {
-  background-color: #008cba;
-  padding: 15px 10px 10px 10px;
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+.vcard {
+  background-color: white; }
+
+.contacted {
+  background-color: black;
   color: white; }
-  .audio span {
-    vertical-align: top;
-    display: inline-block;
-    padding-top: 6px;
-    font-size: 12px;
-    padding-left: 10px; }
-
-.track {
-  text-align: center;
-  cursor: pointer; }
-  .track .trackInfo {
-    font-size: 12px;
-    margin-top: 10px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -12,7 +12,7 @@
 <ul class="small-block-grid-3">
   <li class="track" ng-repeat="song in songs" ng-click="playMe(song)">
     <img ng-if="song.artwork_url" ng-src="{{ song.artwork_url }}">
-    <img ng-if="!song.artwork_url" src="http://placehold.it/100x100">
+    <img ng-if="!song.artwork_url" src="http://placehold.it/100x100?text=Sorry+this+image+is+not+available">
     <p class="trackInfo">{{ song.title }}</p>
   </li>
 </ul>
